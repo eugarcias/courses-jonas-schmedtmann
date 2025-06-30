@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 /*Page section*/
 
@@ -38,8 +39,9 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px 0;
-  width: 500px;
+  padding: 50px 40px;
+  
+ 
 }
 /*Smaller elements*/
 
@@ -53,26 +55,24 @@ h1 {
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
-  margin-bottom: 30px;
+ 
 }
 
 h2 {
-  font-size: 30px;
-  position: relative;
-
-  text-transform: uppercase;
-  font-style: italic;
+ font-size: 40px;
+ margin-bottom: 30px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 20px;
   margin-top: 40px;
-  text-align: center;
-  text-transform: uppercase;
 }
 h4 {
   font-size: 20px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 p {
@@ -108,6 +108,7 @@ li:last-child {
 
 .related {
   list-style: none;
+  margin-left: 0;
 }
 
 li:first-child {
